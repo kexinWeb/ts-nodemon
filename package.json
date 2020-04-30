@@ -1,0 +1,25 @@
+{
+  "name": "ts-nodemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc | node app/index.js",
+    "dev": "nodemon -e ts -V --exec \"npm run compile\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kexinWeb/ts-nodemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kexinWeb/ts-nodemon/issues"
+  },
+  "homepage": "https://github.com/kexinWeb/ts-nodemon#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
+  }
+}
